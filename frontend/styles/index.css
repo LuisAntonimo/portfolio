@@ -1,0 +1,55 @@
+@import url('http://fonts.cdnfonts.com/css/rousseau-deco');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --bg-dark: #09090E;
+  --display-dark: #26252C;
+  --orange-01: #E87E15;
+  --orange-02:#FEA30B;
+}
+
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0
+}
+
+body {
+  background-color:var(--bg-dark);
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* =================== */
+
+#title-section {
+  font-family: 'Rousseau Deco', sans-serif;
+  user-select: none;
+  text-align: center;
+  margin: 25vh auto;
+  margin-bottom: 300px;
+}
+
+#title {
+  font-size: 5em;
+}
+
+#sub-title {
+  color: var(--orange-01);
+}
+
+/* =================== */
+
+#about {
+  background-color: var(--display-dark);
+  padding: 20px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#profilePicture {
+  width: 150px;
+  border-radius: 100%;
+}
