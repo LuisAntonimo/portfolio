@@ -79,6 +79,7 @@ body {
 
 #aboutTexts h2 {
   font-family: var(--rosseau);
+  font-weight: normal;
   text-align: left;
   font-size: 2.5em;
   color: var(--orange-01);
@@ -110,6 +111,7 @@ footer {
   text-align: center;
   padding: 10px;
   font-family: var(--rosseau);
+  font-weight: normal;
 }
 
 footer p {
