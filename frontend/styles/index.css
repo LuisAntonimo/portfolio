@@ -1,0 +1,143 @@
+@import url('http://fonts.cdnfonts.com/css/rousseau-deco');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --bg-dark: #09090E;
+  --display-dark: #26252C;
+  --orange-01: #E87E15;
+  --orange-02:#FEA30B;
+  --rosseau: 'Rousseau Deco', sans-serif;
+}
+
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0
+}
+
+body {
+  background-color:var(--bg-dark);
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* =================== */
+
+#title-section {
+  font-family: var(--rosseau);
+  user-select: none;
+  text-align: center;
+  margin: 25vh auto;
+  margin-bottom: 300px;
+}
+
+#title {
+  font-size: 6em;
+  font-weight: normal;
+}
+
+#sub-title {
+  font-size: 3em;
+  font-weight: normal;
+  color: var(--orange-01);
+}
+
+/* =================== */
+
+#about {
+  background-color: var(--display-dark);
+  padding: 20px 0;
+  justify-self: center;
+  align-items: center;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
+}
+
+#aboutPicture {
+  margin: 20px;
+}
+
+#profilePicture {
+  width: 100%;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: var(--display-dark);
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
+  align-self: center;
+  user-select: none;
+}
+
+#aboutTexts {
+  margin: 20px;
+  padding: 10px;
+}
+
+#aboutTexts h2 {
+  font-family: var(--rosseau);
+  font-weight: normal;
+  text-align: left;
+  font-size: 2.5em;
+  color: var(--orange-01);
+}
+
+#aboutTexts p {
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.aboutLink {
+  text-decoration: none;
+  color: var(--orange-01);
+  font-weight: bold;
+  transition: color 0.25s;
+}
+
+.aboutLink:hover {
+  color: var(--orange-02);
+  transform: color 0.25s;
+}
+
+/* =================== */
+
+footer {
+  background: var(--orange-01);
+  background: linear-gradient(0deg, var(--orange-01) 40%, var(--orange-02) 100%);
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
+  text-align: center;
+  padding: 10px;
+  font-family: var(--rosseau);
+  font-weight: normal;
+}
+
+footer p {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.footerLink {
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.footerIcon {
+  width: 40px;
+}
+
+/* =================== */
+
+@media screen and (max-width: 1024px) {
+  #about {
+    flex-wrap: wrap;
+  }
+
+  #aboutPicture {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
