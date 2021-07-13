@@ -1,4 +1,4 @@
-const about = document.getElementById('about');
+const about = document.getElementById('aboutPicture');
 
 const profile = document.createElement('img');
 
