@@ -70,6 +70,11 @@ body {
   box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
   align-self: center;
   user-select: none;
+  transition: all .2s ease-in-out;
+}
+
+#profilePicture:hover {
+  transform: scale(1.05 , 1.05)
 }
 
 #aboutTexts {
@@ -94,12 +99,11 @@ body {
   text-decoration: none;
   color: var(--orange-01);
   font-weight: bold;
-  transition: color 0.25s;
+  transition: color 0.2s;
 }
 
 .aboutLink:hover {
   color: var(--orange-02);
-  transform: color 0.25s;
 }
 
 /* =================== */
@@ -117,6 +121,7 @@ footer {
 footer p {
   font-size: 1.5em;
   margin: 20px 0;
+  user-select: none;
 }
 
 .footerLink {
@@ -124,8 +129,14 @@ footer p {
   margin: 10px 0;
 }
 
-.footerIcon {
+svg {
   width: 40px;
+  height: 40px;
+  transition: fill 0.2s;
+}
+
+svg:hover {
+  fill: var(--orange-02);
 }
 
 /* =================== */
