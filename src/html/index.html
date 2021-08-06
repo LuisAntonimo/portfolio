@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luis Antonio's portfolio</title>
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="../styles/index.css">
   <script type="module" src="../js/getPicture.js"></script>
 </head>
@@ -18,12 +19,43 @@
       </h2>
     </section>
 
+    <div id="keyDown">
+      <a href="#about">
+        <span id="keyIcon" class="material-icons">
+          keyboard_arrow_down
+        </span>
+      </a>
+    </div>
+
     <section id="about">
       <div id="aboutPicture">
       </div>
       <div id="aboutTexts">
-        <h2>ABOUT</h2>
+        <h2 class="header">ABOUT</h2>
         <p>My name is <a class="aboutLink" target="_blank" href="https://github.com/LuisAntonimo">Luís Antônio</a>  and I'm a Software Engineering student from Brazil. I'm focusing in learn the web development basics (HTML, CSS, and JS), but soon I'll start my journey to learn React. I'm currently studying at the <a class="aboutLink" target="_blank" href="https://www.pucminas.br/main/Paginas/default.aspx">Pontifical Catholic University of Minas Gerais</a>.</p>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div id="art">
+        <h2 class="header">
+          ART
+        </h2>
+        <div class="cards">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+      </div>
+      <div id="dev">
+        <h2 class="header">
+          DEV
+        </h2>
+        <div class="cards">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
       </div>
     </section>
   </main>
